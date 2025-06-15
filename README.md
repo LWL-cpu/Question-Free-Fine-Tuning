@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-📃 <a href="assets/paper.pdf" target="_blank">Paper</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-7B" target="_blank">QFFT-7B</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-32B" target="_blank">QFFT-32B</a> ｜ 📚 <a href="#-datasets">QFFT Datasets</a>
+📃 <a href="assets/paper.pdf" target="assets/paper.pdf">Paper</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-7B" target="_blank">QFFT-7B</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-32B" target="_blank">QFFT-32B</a> ｜ 📚 <a href="#-datasets">QFFT Datasets</a>
 </p>
 
 ---
