@@ -65,7 +65,6 @@ QFFT uses distilled responses from strong Long CoT models (e.g., DeepSeek-R1). D
 |---------------------|--------|------------------------------------|
 | S1.1                | 1k     | High-quality diverse reasoning     |
 | LIMO                | 871    | Long CoT distilled samples         |
-| Bespoke-Stratos-17K | 17k    | Math-heavy long reasoning          |
 
 ---
 
