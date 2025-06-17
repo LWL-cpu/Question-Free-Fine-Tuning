@@ -145,8 +145,9 @@ Here are the main results comparing SFT and QFFT on 3 mathematical reasoning ben
   title={QFFT, Question-Free Fine-Tuning for Adaptive Reasoning},
   author={Wanlong Liu and Junxiao Xu and Fei Yu and Yukang Lin and Ke Ji and Wenyu Chen and Yan Xu and Yasheng Wang and Lifeng Shang and Benyou Wang},
   year={2025},
-  eprint={TBD},
+  eprint={2506.12860},
   archivePrefix={arXiv},
-  primaryClass={cs.CL}
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2506.12860},
 }
 ```
