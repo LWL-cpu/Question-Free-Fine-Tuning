@@ -97,8 +97,9 @@ For details, please refer line **1569**.
 
 ## 🧪 Evaluation
 
-You can evaluate QFFT models using standard benchmark suites (GSM8K, MATH, AIME) with tools like `vllm` or `Sglang`.  
-We also propose a novel metric **RAK** (Reasoning Adaptability Kappa) to evaluate reasoning strategy alignment with task difficulty.
+You can evaluate QFFT models on benchmarks (e.g., GSM8K, MATH, AIME) with tools like `vllm` or `Sglang`.  
+We also propose a novel metric **RAK** (Reasoning Adaptability Kappa) to evaluate the reasoning adaptability.
+
 The evaluation code is coming soon!
 
 ---
