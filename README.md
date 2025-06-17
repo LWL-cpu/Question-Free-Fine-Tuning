@@ -1,14 +1,17 @@
 # QFFT, Question-Free Fine-Tuning for Adaptive Reasoning
 
-<div align="center">
-  <h3>QFFT</h3>
-</div>
-
 <p align="center">
 📃 <a href="assets/paper.pdf" target="assets/paper.pdf">Paper</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-7B" target="_blank">QFFT-7B</a> ｜ 🤗 <a href="https://huggingface.co/lwl-uestc/QFFT-S1-32B" target="_blank">QFFT-32B</a> ｜ 📚 <a href="https://huggingface.co/datasets/lwl-uestc/S1_QFFT">QFFT Datasets</a>
 </p>
 
 ---
+
+[![Paper](https://img.shields.io/badge/arXiv-2506.12860-b31b1b.svg)](https://arxiv.org/abs/2506.12860)
+
+The complete code is coming soon! 
+
+---
+
 
 ## ⚡ Introduction
 
