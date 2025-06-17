@@ -64,10 +64,10 @@ pip install latex2sympy2 word2number
 
 QFFT uses distilled responses from strong Long CoT models (e.g., DeepSeek-R1). During QFFT, the input questions are removed entirely.
 
-| Dataset             | Size   | Description                        |
+| Dataset             | Size   | Link                        |
 |---------------------|--------|------------------------------------|
-| S1.1                | 1k     | High-quality diverse reasoning     |
-| LIMO                | 871    | Long CoT distilled samples         |
+| S1.1                | 1k     | [HF Link](https://huggingface.co/datasets/lwl-uestc/S1_QFFT)     |
+| LIMO                | 871    | [HF Link](https://huggingface.co/datasets/lwl-uestc/LIMO_QFFT)         |
 
 ---
 
