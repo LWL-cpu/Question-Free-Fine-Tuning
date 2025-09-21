@@ -8,7 +8,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2506.12860-b31b1b.svg)](https://arxiv.org/abs/2506.12860)
 
-The complete code is coming soon! 
+Our paper was accepted in NeurIPS 2025 Spotlight!  We will release our revised paper and complete code soon!
 
 ---
 
