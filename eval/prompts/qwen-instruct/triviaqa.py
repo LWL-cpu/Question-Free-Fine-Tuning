@@ -1,0 +1,9 @@
+
+
+system_prompt = "Please answer the question and put your final choice within \\answer{}."
+
+# system_prompt = ""
+
+few_shot_prompt = ""
+
+question_format = """{question}"""

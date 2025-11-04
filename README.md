@@ -36,13 +36,21 @@ We open-sourced our models, data, and code here.
 ### Training Environment (LLaMA-Factory)
 
 ```bash
+# Create training environment
+conda create --name train python=3.10
+conda activate train
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]" --no-build-isolation
+pip install datasets
+pip install deepspeed
 ```
 
 ### Evaluation Environment (VLLM)
 
 ```bash
+# Create evaluation environment
+conda create --name eval python=3.10
+conda activate eval
 pip install vllm bitsandbytes flashinfer-python==0.2.2.post1
 pip install latex2sympy2 word2number
 ```
@@ -75,10 +83,21 @@ QFFT uses distilled responses from strong Long CoT models (e.g., DeepSeek-R1). D
 
 ### Getting Started
 
-To train a model using QFFT, you can use `llamafactory-cli` and the provided YAML configs:
+**⚠️ Important: Before training, please modify the paths in the YAML configuration files to match your local setup.**
+
+To train a model using QFFT, follow these steps:
 
 ```bash
+# Activate training environment and navigate to project directory
+cd /path/to/your/Question-Free-Fine-Tuning/
+cd LLaMA-Factory
+
+conda activate train
+
+# Train on S1 dataset
 llamafactory-cli train examples/train_qfft/train_s1_qfft.yaml
+
+# Train on LIMO dataset
 llamafactory-cli train examples/train_qfft/train_limo_qfft.yaml
 ```
 
@@ -97,10 +116,20 @@ For details, please refer line **1569**.
 
 ## 🧪 Evaluation
 
-You can evaluate QFFT models on benchmarks (e.g., GSM8K, MATH, AIME) with tools like `vllm` or `Sglang`.  
-We also propose a novel metric **RAK** (Reasoning Adaptability Kappa) to evaluate the reasoning adaptability.
+**⚠️ Important: Before evaluation, please modify the paths in the `eval.sh` script to match your local setup.**
 
-The evaluation code is coming soon!
+To evaluate QFFT models, follow these steps:
+
+```bash
+# Navigate to evaluation directory and activate evaluation environment
+cd /path/to/your/Question-Free-Fine-Tuning
+cd eval
+
+conda activate eval
+
+# Run evaluation script
+bash eval.sh
+```
 
 ---
 
